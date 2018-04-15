@@ -24,5 +24,5 @@ end
 end
 
 def valid_phone_number?(phone)
-phone.scan(/\d[0-9]{7})
+phone.match(/\d[0-9]{7})
 end
