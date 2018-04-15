@@ -26,8 +26,8 @@ end
 def valid_phone_number?(phone)
 valid_numbers = ["2438894546", "(718)891-1313", "234 435 9978", "(800)4261134"]
 if phone == valid_numbers
-  return false
+  return true
 else
-  true
+false 
 end 
 end
